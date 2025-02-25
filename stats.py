@@ -11,3 +11,9 @@ def count_words():
         word_count = len(words)
     return word_count           
 
+def report():
+    print(f"--- Begin report of {FRANKENSTEIN_FILE} ---")
+    number_words = f"{count_words()} words found in the document"
+    print(number_words)
+
+report()
