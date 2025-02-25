@@ -25,7 +25,7 @@ def character_count():
 
 def report():
     print(f"--- Begin report of {FRANKENSTEIN_FILE} ---")
-    number_words = f"{count_words()} words found in the document"
+    number_words = f"Found {count_words()} total words"
     print(number_words)
     char_dict = character_count()
     char_list = []
