@@ -36,7 +36,7 @@ def report():
         return char_list["num"]
     char_list.sort(reverse=True, key=sort_on)
     for character in char_list:
-        print(f"The '{character["char"]}' character was found {character["num"]} times")    
+        print(f"{character["char"]}: {character["num"]}")    
 
 
 report()
